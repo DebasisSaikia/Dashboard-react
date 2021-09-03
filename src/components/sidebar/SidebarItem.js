@@ -1,10 +1,11 @@
 import React from 'react'
+import styles from './sidebar.module.css'
 
 const SidebarItem = ({Icon,title}) => {
     return (
-         <div className="sidebar_item">
-            <Icon className="h-8 w-8 text-blue-500 cursor-pointer" />
-            <p className="hidden md:inline-flex">{title}</p>
+         <div className={styles.sidebar_item}>
+            <Icon className={styles.sidebar_icon} />
+            <p className={styles.sidebar_title}>{title}</p>
         </div>
     )
 }
