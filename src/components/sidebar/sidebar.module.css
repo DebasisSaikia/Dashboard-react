@@ -38,3 +38,51 @@
     transform: scale(1.05);
     transition: all 0.3s ease-in-out;
 }
+
+.active_device {
+    padding-left: 2rem;
+    margin-top: 6rem;
+}
+
+.active_device h3 {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.device_container {
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    gap: 20px;
+}
+
+.img_container {
+    width: 50px;
+    height: 50px;
+    background-color: #ecf0f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.device_name {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.device_status {
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+
+.device_icon {
+    color: gray;
+}
+
+.profile_image {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(133, 133, 240);
+    margin-left: 2rem;
+    margin-top: 2.5rem;
+}

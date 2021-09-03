@@ -4,8 +4,8 @@ import { BiShuffle } from "react-icons/bi";
 import { FaGlobe } from "react-icons/fa";
 import { FaStoreAlt } from "react-icons/fa";
 import { AiFillCreditCard } from "react-icons/ai";
-import { FaMobile } from "react-icons/fa";
-import { BsLaptop } from "react-icons/bs";
+import mobile from "../../assets/smartphone.png";
+import laptop from "../../assets/laptop.png";
 
 const sidebarData = [
   {
@@ -45,13 +45,13 @@ const deviceData = [
     id: 1,
     name: "Iphone 6s plus",
     status: "Active",
-    deviceIcon: FaMobile,
+    deviceIcon: mobile,
   },
   {
     id: 2,
     name: "Macbook 2017",
     status: "Active",
-    deviceIcon: BsLaptop,
+    deviceIcon: laptop,
   },
 ];
 

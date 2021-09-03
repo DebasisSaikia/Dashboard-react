@@ -1,39 +1,13 @@
-import React from 'react'
-import styles from './dashboard.module.css'
+import React from "react";
+import styles from "./dashboard.module.css";
+import TopBar from "./topbar";
 
 const DashBoard = () => {
-    return (
-        <div className={styles.dashboard}>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-            <h1>Dashboard</h1>
-        </div>
-    )
-}
+  return (
+    <div className={styles.dashboard}>
+      <TopBar />
+    </div>
+  );
+};
 
-export default DashBoard
+export default DashBoard;
