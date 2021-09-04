@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./bottom.module.css";
-import { RiArtboard2Fill } from "react-icons/ri";
 import { miningData } from "./bottomSectionData";
 
 const BottomSection = () => {
