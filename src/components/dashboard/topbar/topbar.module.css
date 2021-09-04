@@ -2,4 +2,74 @@
     color: #111;
     display: flex;
     justify-content: space-between;
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 1.8rem;
+}
+
+.topbar h1 {
+    font-size: 1.3rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.top_icons {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.top_icons svg {
+    font-size: 1.2rem;
+    color: #5f27cd;
+}
+
+.top_icons svg:hover {
+    transform: rotate(360deg);
+    transition: all 0.5s ease;
+}
+
+.icon_div {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    background-color: #eee6fd;
+    border: 1px solid #e9dffc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.icon_div:hover {
+    border: 1px solid #5f27cd;
+}
+
+/* searchbar styles */
+
+.search_container {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.search_container input {
+    padding: 10px 15px;
+    outline: none;
+    border: 1px solid #fff;
+}
+
+.search_icon {
+    width: 40px;
+    height: 40px;
+    background-color: #5f27cd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_icon svg {
+    font-size: 1.5rem;
+    color: #fff;
 }

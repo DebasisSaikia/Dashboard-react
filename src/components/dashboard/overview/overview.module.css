@@ -1,0 +1,42 @@
+.overview {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.overview h1 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.overview_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 20% 30%;
+    gap: 3.5rem;
+    margin-top: 1rem;
+}
+
+.overview_banner {
+    background-color: bisque;
+}
+
+.overview_currency {}
+
+.overview_company {
+    background-color: cornsilk;
+}
+
+.currency_container {
+    height: 90px;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 4rem;
+}
+
+.currency_container p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
