@@ -49,7 +49,7 @@ const companyData = [
   },
   {
     id: "vodaphone",
-    name: "Vodaphone",
+    name: "Vodafone",
     category: "Phone",
     logo: vodafoneLogo,
     value: "-$58",
@@ -62,6 +62,7 @@ const companyData = [
     logo: facebookLogo,
     value: "+$7000",
     time: "11:45 AM",
+    primary: "rgba(46, 213, 115,1.0)",
   },
   {
     id: "uber",

@@ -17,8 +17,85 @@
     margin-top: 1rem;
 }
 
-.overview_banner {
-    background-color: bisque;
+.banner {
+    height: 250px;
+    background-color: #5f27cd;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    /* gap: 3rem; */
+    color: #fff;
+}
+
+.banner p {
+    font-size: 0.9rem;
+    color: rgba(223, 228, 234, 1.0);
+}
+
+.banner_one {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.banner_one h3 {
+    font-size: 1.7rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.transaction_info {
+    margin-bottom: 2.1rem;
+}
+
+.transaction_info h4 {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-top: 9px
+}
+
+.transaction_info span {
+    padding-left: 1.5rem;
+}
+
+.banner_two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_two svg {
+    font-size: 100px;
+    color: rgba(236, 204, 104, 1.0);
+    transform: rotate(25deg);
+}
+
+.wallet {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    padding-top: 2rem;
+}
+
+.wallet p {
+    font-size: 0.7rem;
+}
+
+.wallet span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.wallet_one svg {
+    color: rgb(90, 107, 205);
+}
+
+.wallet_one, .wallet_two {
+    background-color: #fff;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .currency_container {
@@ -72,7 +149,16 @@
     margin-left: 15px;
 }
 
+.right_info {
+    text-align: right;
+}
+
 .right_info p {
     color: rgba(0, 0, 0, 0.6);
     font-size: 0.8rem;
+}
+
+.right_info h5 {
+    color: red;
+    font-size: 1.1rem;
 }

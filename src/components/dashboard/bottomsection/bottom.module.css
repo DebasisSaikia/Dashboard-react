@@ -1,0 +1,81 @@
+.bottom_section {
+    max-width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.bottom_section h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.security_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.security_card {
+    height: 60px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.security_card p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.security_card h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* mining section styling */
+
+.mining_layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.mining_card {
+    height: 60px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mining_card h5 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.mining_card p {
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.mining_logo {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 7px 6px #ddd0ee;
+}
+
+.mining_logo svg {
+    font-size: 1.5rem;
+    color: white;
+}
