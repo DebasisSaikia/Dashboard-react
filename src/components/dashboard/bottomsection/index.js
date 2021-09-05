@@ -3,6 +3,16 @@ import styles from "./bottom.module.css";
 import { miningData } from "./bottomSectionData";
 
 const BottomSection = () => {
+  // reusable custom checkbox
+  const customCheckbox = () => {
+    return (
+      <label className={styles.switch}>
+        <input type="checkbox" />
+        <span className={styles.slider} id={styles.round} />
+      </label>
+    );
+  };
+
   return (
     <div className={styles.bottom_section}>
       <div className={styles.security_container}>
@@ -13,28 +23,28 @@ const BottomSection = () => {
               <h5>Identity</h5>
               <p>Disable</p>
             </div>
-            <input type="checkbox" name="" id="" />
+            {customCheckbox()}
           </div>
           <div className={styles.security_card}>
             <div>
               <h5>Phone</h5>
               <p>Enable</p>
             </div>
-            <input type="checkbox" name="" id="" />
+            {customCheckbox()}
           </div>
           <div className={styles.security_card}>
             <div>
               <h5>Identity</h5>
               <p>Disable</p>
             </div>
-            <input type="checkbox" name="" id="" />
+            {customCheckbox()}
           </div>
           <div className={styles.security_card}>
             <div>
               <h5>Phone</h5>
               <p>Enable</p>
             </div>
-            <input type="checkbox" name="" id="" />
+            {customCheckbox()}
           </div>
         </div>
       </div>
@@ -54,7 +64,7 @@ const BottomSection = () => {
                   <h5>{data.miningName}</h5>
                   <p style={{ color: data?.isRunning }}>{data.status}</p>
                 </div>
-                {data?.isCheckbox && <input type="checkbox" name="" id="" />}
+                {data?.isCheckbox && customCheckbox()}
               </div>
             );
           })}
